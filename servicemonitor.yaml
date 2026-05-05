@@ -1,0 +1,18 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: diabetes-api-monitor
+  namespace: monitoring
+  labels:
+    release: monitoring        # must match the Helm release name
+spec:
+  selector:
+    matchLabels:
+      app: diabetes-prediction # must match your app's Service label
+  namespaceSelector:
+    matchNames:
+      - default                # namespace where your FastAPI app runs
+  endpoints:
+    - port: http               # must match your Service's port name
+      path: /metrics
+      interval: 15s

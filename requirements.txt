@@ -3,3 +3,5 @@ uvicorn[standard]
 scikit-learn
 pandas
 joblib
+prometheus-fastapi-instrumentator==6.1.0
+prometheus-client==0.20.0
