@@ -220,7 +220,7 @@ kubectl apply -f diabetes-prediction-model-deployment.yaml
 ## 🐳 Docker Containerization
 
 <p align="center">
-  <img src="images/container_active.png" width="800"/>
+  <img src="images/containers_active.png" width="800"/>
 </p>
 
 ---
