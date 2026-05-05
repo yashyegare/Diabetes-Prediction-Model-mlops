@@ -155,3 +155,96 @@ kubectl apply -f diabetes-prediction-model-deployment.yaml
 ```
 
 
+# 📸 Project Screenshots
+
+---
+
+
+
+## 🧠 API Documentation (FastAPI)
+
+- ✅ **LOCALHOST**
+
+<p align="center">
+  <img src="images/localhost.png" width="800"/>
+</p>
+
+
+- ✅ **CONTAINER**
+
+<p align="center">
+  <img src="images/container.png" width="800"/>
+</p>
+
+- ✅ **K8s deployment**
+
+<p align="center">
+  <img src="images/cluster deployment.png" width="800"/>
+</p>
+
+
+### 🔍 Prediction Endpoint
+
+<p align="center">
+  <img src="images/out_inp.png" width="700"/>
+  <br><br>
+  <img src="images/out_out.png" width="700"/>
+</p>
+
+---
+
+## 📊 Experiment Tracking (MLflow + DagsHub)
+
+<p align="center">
+  <img src="images/dagshub.png" width="800"/>
+  <br><br>
+  <img src="images/dagshub_mlflow.png" width="800"/>
+  <br><br>
+  <img src="images/inside_mlflow.png" width="800"/>
+  <br><br>
+  <img src="images/inside_mlflow_accuracy.png" width="800"/>
+</p>
+
+---
+
+## 📦 Data Versioning (DVC)
+
+<p align="center">
+  <img src="images/dvc.png" width="800"/>
+  <br><br>
+  <img src="images/dvc_zoomed.png" width="800"/>
+</p>
+
+---
+
+## 🐳 Docker Containerization
+
+<p align="center">
+  <img src="images/container_active.png" width="800"/>
+</p>
+
+---
+
+## ☸️ Kubernetes Deployment
+
+<p align="center">
+  <img src="images/k8s.png" width="800"/>
+  <br><br>
+  <img src="images/cluster deployment.png" width="800"/>
+</p>
+
+---
+
+## 📈 Monitoring (Prometheus + Grafana)
+
+<p align="center">
+  <img src="images/prom_graf_pods.png" width="800"/>
+</p>
+
+---
+
+## ☁️ Production Deployment (Railway)
+
+<p align="center">
+  <img src="images/railway.png" width="800"/>
+</p>
