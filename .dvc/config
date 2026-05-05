@@ -1,4 +1,2 @@
-[core]
-    remote = myremote
-['remote "myremote"']
-    url = C:\Users\Yash Y\Documents\dvc_remote
+['remote "origin"']
+    url = https://dagshub.com/yashyegare/Diabetes-Prediction-Model-mlops.dvc
