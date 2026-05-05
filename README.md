@@ -193,6 +193,15 @@ kubectl apply -f diabetes-prediction-model-deployment.yaml
 
 ---
 
+## CI / CD (CO-PILOT)
+
+<p align="center">
+  <img src="images/copilot.png" width="700"/>
+  <br><br>
+  <img src="images/copilot_prod.png" width="700"/>
+</p>
+
+
 ## 📊 Experiment Tracking (MLflow + DagsHub)
 
 <p align="center">
